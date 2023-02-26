@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    background-image: linear-gradient(to left, rgba(0, 0, 255, 0.233), rgba(255, 0, 0, 0.705));
+}
+h1{
+    text-align: center;
+}
+
+div#principal{
+    background-color: rgb(119, 192, 9);
+    border: 1px solid white;
+    box-shadow: 1px 1px 9px  black ;
+    padding: 40px;
+    border-radius: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    
+
+}
+
+div#resultado{
+    width: 400px;
+    height: 60px;
+    margin-bottom: 15px;
+    padding-top: 25px;
+    text-align: center;
+    background-color: rgb(44, 1, 1);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px black;
+    
+}
+div > p{
+    margin: auto;
+   
+}
+
+.botao{
+    width: 90px;
+    height: 90px;
+    border-radius: 30px;
+    font-size: 1.1em;
+    text-shadow: 2px 2px 1px 1px rgba(255, 255, 255, 0.432);
+    background-color: rgb(56, 54, 54);
+    color: white;
+    box-shadow: 2px 2px 4px black ;
+}
+.botao:hover{
+    background-color: rgb(70, 69, 69);
+    
+}
+div.nm{
+    padding-bottom: 10px;
+}
